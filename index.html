@@ -1,19 +1,134 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bran One</title>
     <style>
         body{
-            font-size: 1.25rem;
+            background-color: white;
+            color: black;
             margin: 0rem auto;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 1.15rem;
+        }
+        h2{
+            font-size: 1.75rem;
+        }
+        h3{
+            font-size: 1.5;
+        }
+        a{
+            color: #01c0f3;
+            text-decoration: none;
+        }
+        a:hover{
+            text-decoration: underline;
+        }
+        .content-wrapper{
+            max-width: 900px;
+            margin: 5rem auto;
+        }
+        /*HEADER*/
+        header{
+            margin: 3rem;
+        }
+        header svg{
+            width: 8rem;
+            height: 8rem;
+            margin: 0rem auto;
+            padding: 1rem;
+            border-radius: 100%;
+            background: #01c0f3;
+            fill: white;
+            display: block;
+        }
+        .name{
+            margin-bottom: .5rem;
+            font-size: 2.5rem;
+            text-align: center;
+        }
+        .tagline{
+            color: gray;
+            margin: .5rem auto auto auto;
+            font-size: 1rema;
+            font-style: italic;
+            text-align: center;
+        }
+        /*MAIN*/
+        .description{
+            color: rgba(100, 100, 100, 1);
+            font-size: 1.25rem;
+            font-style: italic;
+        }
+        /*FOOTER*/
+        footer{
+            margin-top: 9rem;
+        }
+        .copyright{
+            color: rgba(200, 200, 200, 1);
+            font-size: .75rem;
             text-align: center;
         }
     </style>
 </head>
 <body>
-    <h1>Bran One</h1>
+    <div class="content-wrapper">
+        <header>
+            <svg version="1.1"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:a="http://ns.adobe.com/AdobeSVGViewerExtensions/3.0/"
+                    x="0px" y="0px" width="820px" height="312px" viewBox="-5.528 -42.459 820 312"
+                    overflow="visible" enable-background="new -5.528 -42.459 820 312" xml:space="preserve">
+            <defs>
+            </defs>
+            <path d="M0,227.082L49.174,0h74.128c22.016,0,38.708,4.271,50.074,12.811c11.364,8.543,17.049,20.784,17.049,36.73
+                c0,29.753-14.846,49.227-44.534,58.42v1.239c9.05,2.996,16.25,8.241,21.6,15.729c5.349,7.488,8.023,16.658,8.023,27.504
+                c0,23.793-7.883,42.182-23.645,55.168c-15.766,12.986-38.118,19.48-67.058,19.48H0z M70.623,179.396h12.794
+                c8.946,0,16.41-2.506,22.394-7.514c5.979-5.008,8.973-11.287,8.973-18.832c0-7.123-1.714-12.443-5.142-15.957
+                c-3.426-3.514-9.45-5.27-18.067-5.27l-10.591-0.031L70.623,179.396z M90.715,87.072h11.047c9,0,15.802-1.963,20.406-5.893
+                c4.601-3.926,6.904-10.233,6.904-18.92c0-10.544-6.577-15.818-19.726-15.818h-9.785L90.715,87.072z"/>
+            <path d="M168.364,227.082L216.358,0h60.109c26.094,0,46.077,5.18,59.954,15.532c13.874,10.354,20.813,25.938,20.813,46.752
+                c0,16.153-3.678,30.236-11.028,42.248c-7.354,12.012-18.277,21.176-32.772,27.491l34.792,80.146l6.213,14.912h-66.167l-30.32-82.633
+                l-11.351,0.135l-17.507,82.498H168.364z M256.432,98.248h7.921c9.835,0,17.653-2.818,23.454-8.453
+                c5.797-5.635,8.697-13.52,8.697-23.655c0-6.411-1.779-11.297-5.338-14.657c-3.557-3.36-8.735-5.041-15.539-5.041h-8.195
+                L256.432,98.248z"/>
+            <path d="M351.178,227.082L466.735,0h78.127l19.104,227.082h-59.178l-1.554-42.715h-69.584l-19.415,42.715H351.178z M455.862,136.062
+                h45.51l-2.641-65.856l-0.311-13.358c0-7.766,0.207-14.547,0.621-20.347c-2.485,8.906-5.644,17.499-9.475,25.783L455.862,136.062z"/>
+            <path d="M561.205,227.082L609.2,0h70.495l44.436,152.73h1.405c3.02-24.445,5.984-43.661,8.901-57.643L754.892,0h54.052
+                l-47.994,227.082h-70.672L645.438,67.395h-1.246c-3.01,30.138-5.965,51.781-8.867,64.929l-20.068,94.758H561.205z"/>
+            </svg>
+            <h1 class="name">Bran McMillin</h1>
+            <p class="tagline">Comics, Puzzles, and Games.</p>
+        </header>
+        <main>
+            <h2>Puzzles</h2>
+            <h3>Itachi</h3>
+            <p class="description">Math mazes whose objective is to move from the start arrow through the puzzle to the exit arrow.</p>
+            <ul>
+                <li class="card"><a href="https://www.amazon.com/Itachi-1-Mazes-Bran-McMillin/dp/B0B6XGV2BS/">Itachi - Volume 1</a></li>
+                <li class="card"><a href="https://www.amazon.com/Itachi-2-Mazes-Bran-McMillin/dp/B0B7QHWZCY/">Itachi - Volume 2</a></li>
+                <li class="card"><a href="https://www.amazon.com/Itachi-3-Mazes-Bran-McMillin/dp/B0B8BPKG5B/">Itachi - Volume 3</a></li>
+                <li class="card"><a href="https://www.amazon.com/Itachi-4-Mazes-Bran-McMillin/dp/B0B8XY8LLW/">Itachi - Volume 4</a></li>
+                <li class="card"><a href="https://www.amazon.com/Itachi-5-Mazes-Bran-McMillin/dp/B0B92NVLM9/">Itachi - Volume 5</a></li>
+                <li class="card"><a href="https://www.amazon.com/Itachi-6-Mazes-Bran-McMillin/dp/B0B92RJJHH/">Itachi - Volume 6</a></li>
+            </ul>
+            <h3>Hairetsu</h3>
+            <p class="description">Math puzzle where players have all of the white boxes add up to the black boxes.</p>
+            <ul>
+                <li class="card"><a href="https://www.amazon.com/Hairetsu-1-Puzzles-Bran-McMillin/dp/B0BB5NFN6R">Hairetsu - Volume 1</a></li>
+                <li class="card"><a href="https://www.amazon.com/Hairetsu-2-Puzzles-Bran-McMillin/dp/B0BBD77VJS">Hairetsu - Volume 2</a></li>
+                <li class="card"><a href="https://www.amazon.com/Hairetsu-3-Puzzles-Bran-McMillin/dp/B0BCSHGJN5">Hairetsu - Volume 3</a></li>
+            </ul>
+            <h2>Games</h2>
+            <h3>Cheese Chasers</h3>
+            <p class="description">Help the Mice surround the Cheese and break the Mousetraps so that they can get to the Cheese and be the top Cheese Chasers around!</p>
+            <ul>
+                <li class="card"><a href="https://play.google.com/store/apps/details?id=org.boardnaut.studios.cheesechasers.android&pli=1">Android</a></li>
+            </ul>
+        </main>
+        <footer>
+            <p class="copyright">&copy;2024 Bran McMillin. All rights reserved.</p>
+        </footer>
+    </div>
 </body>
 </html>
